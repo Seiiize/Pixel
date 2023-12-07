@@ -1,0 +1,28 @@
+POST http://localhost:3000/api/PC
+Content-Type: application/json
+
+{
+    "name": "Megaport Goblin",
+    "CPU": "AMD Ryzen 5 5600X 6X 3,70GHz",
+    "RAM": "16Go 3200 MHz DDR4",
+    "Stockage": "1To M.2 SSD",
+    "GPU": "Nvidia GeForce RTX 3060Ti 8Go",
+    "img":"https://lh3.googleusercontent.com/Nskf3ZeLW0SHP9-RqdruNZLXbID0nnXM0U-E_u1WGzf5Hci4fgM_us1Lik7hWHGSYbla8vniret3ZqBKUA5c5dPsTP5YikxIvWMdzosqk8c6HtQp5eAMpetgXE8lQ8j1RpSfueQ2S-oA5j-tc-Spa0RHUgQQCwubUqG9Dr7uT4O19RuRCQmAbp7cPlAhEUIPhlwb7yc_i7di37uh1JFI3G8vagvrwsubQZvnDEYdNUQfClLVGNnnlOp2tRtKzsduN8ebdnVZMwh5EIVxAXEhWZsWtSWUXmJ8axkXSvGIXgQrfQ-RQf_EPMBycDL5C90j5-Q_9w1VNHFYf2twNy-03GAM3bN_8DPCHlVNnX8ftgZYIft4AVlAK-bQFGiid8aRv4VQqzIEowhfdO1xmbpS2p6lFmCqVA0o9x196Rm_hvWZMtnztMlDgUgR8xZqBSc-SdKbv2km4rLs3laTr-04CGJsf3uRrHJpgAjW54nGy6jfRGwhWZ0s5L4lkP9dFKmJ73VncdJl1LT3vDSB6rC5oBmUZJVNMAHvHqC_liDX9T9S4hwdkvQoROBfe7OAUln7bdwr8urYUCKuBeR7HjLzqxrBOv3wcR66056RM5wDvE9B2fhH2t7cnOoRkB0S801YMhn-ZslOEdn1WJW6y2rnQm8asedijMZzqlSquzCRMC4xcQxCb5ZXHEAPaQY3wcj1aH8QWUQy_VFcPxNhlYOuATbftal4tnkUvRezXMH2vHPeXg9zy5nxpynXfpkbyQshcM4lrIN6VedkH5Zbq0jwpWv7g5aDinlpZ3jZ5sUfjZBLIXxfKmSOi7x8N4BdDBvS09epcHLvWHExmgho2PpJxTy_gp-1y10w-wzN7RHypsYuYgw7Idju9sXM5WzWV3pAgnxzrCsK9GS8jnHD7mqOAyfOYxx4kg8Vu7j1KO--I85J0OX5DOigVx814XWbCKBDFzGXxk6PleE8IZtzJUmyCw=s500-no?authuser=0",
+    "Description":"PC de bureau permettant de répondre à tout les besoins"
+    }
+
+###
+DELETE http://localhost:3000/api/PC/63e292dc06ddcc4640399ac4
+###
+GET http://localhost:3000/api/users
+###
+GET http://localhost:3000/api/users
+###
+POST http://localhost:3000/api/users/login
+Content-Type: application/json
+
+{
+    "username": "Sofiane",
+    "email":"Chafikchikhso@gmail.com",
+    "password":"modpas01"
+    }
